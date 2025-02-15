@@ -7,8 +7,15 @@
     <artifactId>document-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
+
   <artifactId>document-client</artifactId>
+
   <dependencies>
+    <dependency>
+      <groupId>com.sahil</groupId>
+      <artifactId>shared-module</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
+    </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-web</artifactId>
